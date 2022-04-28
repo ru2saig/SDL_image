@@ -21,9 +21,9 @@ if (APPLE)
 endif()
 
 # FIXME: ????
-if (NOT BUILD_SHARED_LIBS)
-	set(CMAKE_POSITION_INDEPENDENT_CODE ON)
-endif()
+# if (NOT BUILD_SHARED_LIBS)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+# endif()
 
 add_library(SDL2_image)
 
